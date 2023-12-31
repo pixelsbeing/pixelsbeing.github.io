@@ -1,0 +1,100 @@
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.about-section {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-section:hover {
+    transform: scale(1.05);
+}
+
+.section-heading {
+    color: #333;
+}
+
+.section-content {
+    line-height: 1.6;
+    color: #666;
+}
+
+.section-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+main{
+    padding-top: 5rem;
+}
+
+/* why chose us */
+.why-choose {
+    background-color: #dfdfdf;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .section-title {
+    color: #333;
+  }
+
+  .feature-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .feature-item {
+    animation: fadeInUp 0.5s ease-out;
+  }
+
+  .feature-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .feature-image:hover {
+    transform: scale(1.1);
+  }
+
+  .feature-description {
+    color: #666;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* ABOUT US HEADING CSS */
+
+header .aboutus {
+    padding-top: 10.2rem;
+    text-align: center;
+    background: #bdecff;
+}
+.aboutus h2{
+  font-size: 3rem;
+  padding-bottom: 2.2rem;
+}
