@@ -1,0 +1,17 @@
+.pricing-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+  }
+  .pricing-card:hover {
+    transform: scale(1.05); /* Slightly enlarges the card */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Adds a shadow effect */
+    border-color: #3b82f6; /* Changes border color to blue on hover */
+  }
+  .tick-icon {
+    background-color: #10b981; /* Green background for tick icon */
+  }
+  @media (min-width: 768px) {
+    .pricing-section {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
